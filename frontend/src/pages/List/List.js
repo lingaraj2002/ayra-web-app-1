@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router-dom";
+// import { useLocation, useParams } from "react-router-dom";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import "./List.scss";
 import { getProductsApi } from "../../services/api";
@@ -9,7 +9,7 @@ export default function List() {
   const [category, setCategory] = useState("");
   const [search, setSearch] = useState("");
   const [price, setPrice] = useState(500);
-  const [filtered, setFiltered] = useState([]);
+  // const [filtered, setFiltered] = useState([]);
 
   useEffect(() => {
     getProductsApi({
