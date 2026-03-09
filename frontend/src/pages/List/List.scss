@@ -1,0 +1,35 @@
+.list-page {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  padding: 24px 8%;
+}
+
+/* Filters */
+.filters {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 8px;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .list-page {
+    grid-template-columns: 1fr;
+  }
+}

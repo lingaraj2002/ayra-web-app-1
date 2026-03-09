@@ -1,0 +1,20 @@
+@import "../../styles/_index";
+
+.modal-popup {
+  &__main {
+  }
+
+  &__head {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+
+    .close-btn {
+      position: absolute;
+      top: 50%;
+      right: 1rem;
+      transform: translateY(-50%);
+    }
+  }
+}

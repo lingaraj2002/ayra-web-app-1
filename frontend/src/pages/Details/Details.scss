@@ -1,0 +1,66 @@
+.detail {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  gap: 40px;
+  padding: 40px 8%;
+}
+
+/* Image */
+.detail-image {
+  width: 100%;
+
+  img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+}
+/* Info */
+.detail-info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 22px;
+  color: #d32f2f;
+  margin-bottom: 14px;
+}
+
+.desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.add,
+.buy {
+  padding: 12px 22px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.add {
+  background: #eee;
+}
+
+.buy {
+  background: #d32f2f;
+  color: #fff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .detail {
+    grid-template-columns: 1fr;
+  }
+}

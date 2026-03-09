@@ -1,0 +1,40 @@
+@import "../../styles/index";
+
+.alert-popup-main {
+  .MuiDialog-paper {
+    width: 380px;
+    height: auto;
+    border-radius: 20px !important;
+    padding: 15px;
+  }
+
+  &__title {
+    font-size: 20px;
+    padding: 0 14px 12px 14px;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  &__action {
+    text-align: center;
+    padding: 10px 0;
+
+    button {
+      background: $color-primary;
+      color: #fff;
+      border-radius: 20px;
+      text-transform: none;
+      font-family: poppins;
+      font-weight: 400;
+      box-shadow: none;
+      &:hover {
+        background: $color-secondary;
+      }
+    }
+  }
+}

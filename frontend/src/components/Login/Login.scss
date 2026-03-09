@@ -1,0 +1,49 @@
+@import "../../styles/index";
+
+.login-main {
+  background: #fff;
+  padding: 24px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid $color-secondary;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+    &:focus {
+      border: 1px solid $color-primary;
+      box-shadow: 0 0 8px $color-primary;
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: $color-accent;
+    color: #fff;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color-secondary;
+    }
+  }
+
+  .error {
+    text-align: left;
+    color: red;
+    font-size: 14px;
+  }
+}

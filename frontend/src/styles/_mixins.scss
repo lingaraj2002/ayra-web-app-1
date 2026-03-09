@@ -1,0 +1,20 @@
+@import "./_breakpoints.scss";
+
+/* Responsive helpers */
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet-start) and (max-width: $tablet-end) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "categoryHighlights": [
+    {
+      "id": 1,
+      "title": "Masala",
+      "description": "Authentic spice Blends, rich aroma!"
+    },
+    {
+      "id": 2,
+      "title": "Health mix",
+      "description": "Nutritious & energyzing every zip!"
+    },
+    {
+      "id": 3,
+      "title": "Flour",
+      "description": "The Heart of Homemade Goodness!"
+    }
+  ],
+  "offers": [
+    "🔥 Free delivery on orders above ₹999",
+    "🎉 New arrivals are live",
+    "🔥 Free delivery on orders above ₹999",
+    "🎉 New arrivals are live",
+    "🔥 Free delivery on orders above ₹999",
+    "🎉 New arrivals are live"
+  ]
+}

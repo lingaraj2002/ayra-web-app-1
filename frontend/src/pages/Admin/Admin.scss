@@ -1,0 +1,67 @@
+@import "../../styles/index";
+
+.admin {
+  width: 100%;
+
+  > h1 {
+    text-align: center;
+    margin-block: 2rem;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .admin-cntnr {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto 2rem;
+    padding: 2rem;
+    background-color: $color-background;
+    border-radius: 24px;
+
+    .admin-header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+
+      h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      svg {
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .prod-cntnr {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .admin-action {
+    text-align: center;
+
+    .logout-btn {
+      padding: 1rem 2rem;
+      background-color: $color-primary;
+      color: #fff;
+      border: none;
+      border-radius: 0.75rem;
+      font-size: 1rem;
+      margin: 2rem auto;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $color-secondary;
+      }
+    }
+  }
+}
