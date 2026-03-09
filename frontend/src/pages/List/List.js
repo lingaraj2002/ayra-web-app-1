@@ -7,7 +7,7 @@ import { getProductsApi } from "../../services/api";
 export default function List() {
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState("");
-  const [search, setSearch] = useState("");
+  const [search] = useState("");
   const [price, setPrice] = useState(500);
   // const [filtered, setFiltered] = useState([]);
 
